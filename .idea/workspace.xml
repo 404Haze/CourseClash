@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f986c473-7fad-4faf-8a6b-961b6ed5db29" name="Changes" comment="since i cant do anything without entity, IA, UC finished, i created viewtest file to test if the view is working properly">
-      <change afterPath="$PROJECT_DIR$/src/main/view/MainViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/view/ViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/ViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/view/BrowseStudySetView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/view/BrowseStudySetView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UI" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +43,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/404Haze/CourseClash.git&quot;,
-    &quot;accountId&quot;: &quot;396b5ab7-87a7-4906-9a1c-b3c619ced809&quot;
+    &quot;accountId&quot;: &quot;2f0bc935-7931-4f17-a0ed-055cf052a97c&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -59,16 +59,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BrowseStudySetView.executor": "Run",
     "Application.MainScreen.executor": "Run",
     "Application.MainView.executor": "Run",
     "Application.MainViewTest.executor": "Run",
-    "Application.ViewTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "BrowseStudySetView",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,11 +88,8 @@
       <recent name="C:\Users\alber\Desktop\University\Second Year - 2025 2026\CSC207 - Software Design\CourseClash\images" />
       <recent name="C:\Users\alber\Desktop\University\Second Year - 2025 2026\CSC207 - Software Design\CourseClash" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.view" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BrowseStudySetView">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="CourseClash" />
       <method v="2">
@@ -102,6 +99,29 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="CourseClash" />
       <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="CourseClash" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -141,53 +161,6 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="CourseClash" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="CourseClash" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="CourseClash" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="CourseClash" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="Python.FlaskServer">
       <module name="CourseClash" />
       <option name="ENV_FILES" value="" />
@@ -215,14 +188,62 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
-      </set>
-    </attachedChunks>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="CourseClash" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BrowseStudySetView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.view.BrowseStudySetView" />
+      <module name="TeamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainViewTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.view.MainViewTest" />
+      <module name="TeamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CourseClash" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CourseClash" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BrowseStudySetView" />
+        <item itemvalue="Application.MainViewTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -236,8 +257,7 @@
       <workItem from="1761201431941" duration="1308000" />
       <workItem from="1761953210249" duration="1602000" />
       <workItem from="1761954851679" duration="5267000" />
-      <workItem from="1761960167918" duration="1183000" />
-      <workItem from="1762201073824" duration="856000" />
+      <workItem from="1761960167918" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="adding fonts, image, creating title screen">
       <option name="closed" value="true" />
@@ -279,15 +299,7 @@
       <option name="project" value="LOCAL" />
       <updated>1761960272452</updated>
     </task>
-    <task id="LOCAL-00006" summary="since i cant do anything without entity, IA, UC finished, i created viewtest file to test if the view is working properly">
-      <option name="closed" value="true" />
-      <created>1761960928041</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1761960928041</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +321,6 @@
     <MESSAGE value="changing file structure, based on clean architecture" />
     <MESSAGE value="last change before merge" />
     <MESSAGE value="Merge pull request #1 from 404Haze/team-contract&#10;&#10;Update Team Contract with detailed norms and expectations" />
-    <MESSAGE value="since i cant do anything without entity, IA, UC finished, i created viewtest file to test if the view is working properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="since i cant do anything without entity, IA, UC finished, i created viewtest file to test if the view is working properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #1 from 404Haze/team-contract&#10;&#10;Update Team Contract with detailed norms and expectations" />
   </component>
 </project>
