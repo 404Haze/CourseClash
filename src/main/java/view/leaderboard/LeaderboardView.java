@@ -115,25 +115,8 @@ public class LeaderboardView extends JPanel implements ActionListener, PropertyC
         leaderboardPanel.add(leaderboardTableScrollPane, BorderLayout.CENTER);
         leaderboardPanel.setMinimumSize(new Dimension(leaderboardPanel.getWidth(), 400));
 
-        // populate myRankPanel
-        // myRankPanel.setLayout(new BorderLayout());
-        // myRankPanel.setBorder(BorderFactory.createEmptyBorder(50,50,50,50));
-        // DefaultTableModel myRankTableModel = new DefaultTableModel(0,6);
-        // ArrayList<Object> myRankAsArray =
-        // leaderboardViewModel.getMyRankInfo(leaderboardType);
-        // myRankTableModel.addRow(myRankAsArray.toArray());
-        // JTable myRankTable = new JTable(myRankTableModel);
-        // JScrollPane myRankTableScrollPane = new JScrollPane(myRankTable);
-        // myRankTable.setTableHeader(null);
-        // myRankTable.setFont(new Font("Helvetica", Font.PLAIN, 30));
-        // myRankTable.setRowHeight(50);
-        // myRankPanel.add(myRankTableScrollPane, BorderLayout.CENTER);
-        // myRankPanel.setMinimumSize(new Dimension(myRankPanel.getWidth(), 50));
-        // myRankPanel.setMaximumSize(new Dimension(myRankPanel.getWidth(), 50));
-
         // populate containerPanel
         containerPanel.add(leaderboardPanel);
-        containerPanel.add(myRankPanel);
         return containerPanel;
     }
 

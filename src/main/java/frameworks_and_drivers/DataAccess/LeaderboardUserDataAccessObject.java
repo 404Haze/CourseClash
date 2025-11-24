@@ -53,18 +53,4 @@ public class LeaderboardUserDataAccessObject implements LeaderboardUserDataAcces
         return result;
     }
 
-
-//    @Override
-//    public Map<LeaderboardType, Integer> getUserRank(User user) throws DataAccessException {
-//        final String method = "/api/get-user-rank";
-//        HashMap<String, String> params = new HashMap<>();
-//        params.put("username", user.getUserName());
-//        JSONObject response = makeApiRequest("GET", method, params, apiKey);
-//        Map<LeaderboardType, Integer> result = new HashMap<>();
-//        result.put(LeaderboardType.LEVEL, response.getInt("level-rank"));
-//        result.put(LeaderboardType.EXPERIENCE_POINTS, response.getInt("points-rank"));
-//        result.put(LeaderboardType.QUESTIONS_ANSWERED, response.getInt("answered-rank"));
-//        result.put(LeaderboardType.QUESTIONS_CORRECT, response.getInt("correct-rank"));
-//        return result;
-//    }
 }
