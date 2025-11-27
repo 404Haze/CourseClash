@@ -23,17 +23,5 @@ public class StudyCard {
 
     public int getSolutionId() {
         return solutionId;
-
-        // TODO merge the check into here from the getCorrectAnswer and straight up nuke it.
-    }
-
-    /**
-     * FIX: Returns the correct answer by indexing into the answers list.
-     */
-    public String getCorrectAnswer() {
-        if (answers != null && solutionId >= 0 && solutionId < answers.size()) {
-            return answers.get(solutionId);
-        }
-        return "ERROR: NO ANSWER DEFINED";
     }
 }

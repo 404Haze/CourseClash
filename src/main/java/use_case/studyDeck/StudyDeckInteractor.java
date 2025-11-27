@@ -2,7 +2,6 @@ package use_case.studyDeck;
 
 import entity.DeckManagement.StudyCard;
 import entity.DeckManagement.StudyDeck;
-import use_case.studyDeck.DeckManagement.CardGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -189,10 +188,10 @@ public class StudyDeckInteractor implements StudyDeckInputBoundary {
     // @param topic The topic for the generated card.
     // @param sourceText The source text to base the card on.
     // @return The generated StudyCard object, or null if generation fails.
-    public StudyCard generateCardWithAI(String topic, String sourceText) {
-        // Use CardGenerator to generate the card via AI
-        return new CardGenerator("").generateCard(topic, sourceText);
-    }
+//    public StudyCard generateCardWithAI(String topic, String sourceText) {
+//        // Use CardGenerator to generate the card via AI
+//        return new CardGenerator("").generateCard(topic, sourceText);
+//    }
 
     // TODO Generate a new StudyCard using AI with the specified topic and source
     // text,
@@ -200,24 +199,24 @@ public class StudyDeckInteractor implements StudyDeckInputBoundary {
     // @param topic The topic for the generated card.
     // @param sourceText The source text to base the card on.
     // @return The generated StudyCard object, or null if generation fails.
-    public StudyCard generateAndAddCardWithAI(String topic, String sourceText) {
-        if (currentDeck != null) {
-            // Use CardGenerator to generate the card via AI
-            StudyCard generatedCard = new CardGenerator("").generateCard(topic, sourceText);
-
-            if (generatedCard != null) {
-                // Add the generated card to the current deck
-                ArrayList<StudyCard> newCards = new ArrayList<>(currentDeck.getDeck());
-                newCards.add(generatedCard);
-                // Update the current deck with the new list
-                this.currentDeck = new StudyDeck(currentDeck.getTitle(), currentDeck.getDescription(), newCards,
-                        currentDeck.getId());
-                return generatedCard;
-            }
-        }
-        // If currentDeck is null or generation fails, return null
-        return null;
-    }
+//    public StudyCard generateAndAddCardWithAI(String topic, String sourceText) {
+//        if (currentDeck != null) {
+//            // Use CardGenerator to generate the card via AI
+//            StudyCard generatedCard = new CardGenerator("").generateCard(topic, sourceText);
+//
+//            if (generatedCard != null) {
+//                // Add the generated card to the current deck
+//                ArrayList<StudyCard> newCards = new ArrayList<>(currentDeck.getDeck());
+//                newCards.add(generatedCard);
+//                // Update the current deck with the new list
+//                this.currentDeck = new StudyDeck(currentDeck.getTitle(), currentDeck.getDescription(), newCards,
+//                        currentDeck.getId());
+//                return generatedCard;
+//            }
+//        }
+//        // If currentDeck is null or generation fails, return null
+//        return null;
+//    }
 
     // TODO Generate multiple StudyCards using AI with the specified topic and
     // source text,
@@ -227,29 +226,29 @@ public class StudyDeckInteractor implements StudyDeckInputBoundary {
     // @param numberOfCards The number of cards to generate.
     // @return A list of generated StudyCard objects, or empty list if generation
     // fails.
-    public ArrayList<StudyCard> generateAndAddMultipleCardsWithAI(String topic, String sourceText, int numberOfCards) {
-        ArrayList<StudyCard> generatedCards = new ArrayList<>();
-
-        if (currentDeck != null) {
-            // Generate multiple cards using CardGenerator
-            for (int i = 0; i < numberOfCards; i++) {
-                StudyCard generatedCard = new CardGenerator("").generateCard(topic, sourceText);
-                if (generatedCard != null) {
-                    generatedCards.add(generatedCard);
-                }
-            }
-
-            if (!generatedCards.isEmpty()) {
-                // Add all generated cards to the current deck
-                ArrayList<StudyCard> newCards = new ArrayList<>(currentDeck.getDeck());
-                newCards.addAll(generatedCards);
-                // Update the current deck with the new list
-                this.currentDeck = new StudyDeck(currentDeck.getTitle(), currentDeck.getDescription(), newCards,
-                        currentDeck.getId());
-            }
-        }
-        // If currentDeck is null or generation fails, return empty list
-        return generatedCards;
-    }
+//    public ArrayList<StudyCard> generateAndAddMultipleCardsWithAI(String topic, String sourceText, int numberOfCards) {
+//        ArrayList<StudyCard> generatedCards = new ArrayList<>();
+//
+//        if (currentDeck != null) {
+//            // Generate multiple cards using CardGenerator
+//            for (int i = 0; i < numberOfCards; i++) {
+//                StudyCard generatedCard = new CardGenerator("").generateCard(topic, sourceText);
+//                if (generatedCard != null) {
+//                    generatedCards.add(generatedCard);
+//                }
+//            }
+//
+//            if (!generatedCards.isEmpty()) {
+//                // Add all generated cards to the current deck
+//                ArrayList<StudyCard> newCards = new ArrayList<>(currentDeck.getDeck());
+//                newCards.addAll(generatedCards);
+//                // Update the current deck with the new list
+//                this.currentDeck = new StudyDeck(currentDeck.getTitle(), currentDeck.getDescription(), newCards,
+//                        currentDeck.getId());
+//            }
+//        }
+//        // If currentDeck is null or generation fails, return empty list
+//        return generatedCards;
+//    }
 
 }

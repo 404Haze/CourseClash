@@ -24,10 +24,10 @@ public interface StudyDeckInputBoundary {
 
     StudyDeck getCurrentDeck();
 
-    StudyCard generateCardWithAI(String topic, String sourceText);
-
-    StudyCard generateAndAddCardWithAI(String topic, String sourceText);
-
-    ArrayList<StudyCard> generateAndAddMultipleCardsWithAI(String topic, String sourceText, int numberOfCards);
+//    StudyCard generateCardWithAI(String topic, String sourceText);
+//
+//    StudyCard generateAndAddCardWithAI(String topic, String sourceText);
+//
+//    ArrayList<StudyCard> generateAndAddMultipleCardsWithAI(String topic, String sourceText, int numberOfCards);
 
 }
