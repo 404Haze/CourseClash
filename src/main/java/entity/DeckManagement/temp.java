@@ -1,3 +1,5 @@
+// Entity for Study Cards
+// Archie
 package entity.DeckManagement;
 
 import java.util.ArrayList;
@@ -7,6 +9,7 @@ public class StudyCard {
     private final ArrayList<String> answers;
     private final int solutionId;
 
+    // Defensive copying from Clean Architecture
     public StudyCard(String question, ArrayList<String> answers,  int solutionId) {
         this.question = question;
         this.answers = new ArrayList<>(answers);
