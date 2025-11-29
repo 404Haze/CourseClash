@@ -18,7 +18,7 @@ public class GeminiApiClient {
         this.apiKey = apiKey;
     }
 
-    // TODO Send a request to the Gemini API to generate a study card based on the provided topic and source text.
+    // SCRAPPED: Send a request to the Gemini API to generate a study card based on the provided topic and source text.
     // @param topic The topic for the generated card.
     // @param sourceText The source text to base the card on.
     // @return The raw response from the Gemini API, or null if the request fails.
@@ -26,7 +26,7 @@ public class GeminiApiClient {
         throw new UnsupportedOperationException("Method not yet implemented");
     }
 
-    // TODO Format the prompt sent to the Gemini API to ensure proper card structure.
+    // SCRAPPED: Format the prompt sent to the Gemini API to ensure proper card structure.
     // @param topic The topic for the generated card.
     // @param sourceText The source text to base the card on.
     // @return A properly formatted prompt string for the Gemini API.
@@ -34,20 +34,20 @@ public class GeminiApiClient {
         throw new UnsupportedOperationException("Method not yet implemented");
     }
 
-    // TODO Make the actual HTTP request to the Gemini API.
+    // SCRAPPED: Make the actual HTTP request to the Gemini API.
     // @param requestBody The JSON request body to send to the API.
     // @return The raw response from the Gemini API, or null if the request fails.
     private String makeApiRequest(String requestBody) {
         throw new UnsupportedOperationException("Method not yet implemented");
     }
 
-    // TODO Validate that the API key is properly formatted and valid.
+    // SCRAPPED: Validate that the API key is properly formatted and valid.
     // @return True if the API key is valid, false otherwise.
     private boolean validateApiKey() {
         throw new UnsupportedOperationException("Method not yet implemented");
     }
 
-    // TODO Handle API response errors and return appropriate error messages.
+    // SCRAPPED: Handle API response errors and return appropriate error messages.
     // @param errorCode The HTTP error code from the API response.
     // @param errorMessage The error message from the API response.
     // @return A formatted error message suitable for application use.
@@ -55,7 +55,7 @@ public class GeminiApiClient {
         throw new UnsupportedOperationException("Method not yet implemented");
     }
 
-    // TODO Check if the API request is within rate limits.
+    // SCRAPPED: Check if the API request is within rate limits.
     // @return True if the request can be made, false if rate limited.
     private boolean checkRateLimit() {
         throw new UnsupportedOperationException("Method not yet implemented");

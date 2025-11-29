@@ -181,24 +181,24 @@ public class StudyDeckInteractor implements StudyDeckInputBoundary {
         return deckNames;
     }
 
-    // TODO Generate a new StudyCard using AI with the specified topic and source
-    // text.
-    // The generated card is returned but NOT automatically added to the current
-    // deck.
-    // @param topic The topic for the generated card.
-    // @param sourceText The source text to base the card on.
-    // @return The generated StudyCard object, or null if generation fails.
+//     SCRAPPED: Generate a new StudyCard using AI with the specified topic and source
+//     text.
+//     The generated card is returned but NOT automatically added to the current
+//     deck.
+//     @param topic The topic for the generated card.
+//     @param sourceText The source text to base the card on.
+//     @return The generated StudyCard object, or null if generation fails.
 //    public StudyCard generateCardWithAI(String topic, String sourceText) {
 //        // Use CardGenerator to generate the card via AI
 //        return new CardGenerator("").generateCard(topic, sourceText);
 //    }
-
-    // TODO Generate a new StudyCard using AI with the specified topic and source
-    // text,
-    // and automatically add it to the current deck.
-    // @param topic The topic for the generated card.
-    // @param sourceText The source text to base the card on.
-    // @return The generated StudyCard object, or null if generation fails.
+//
+//     SCRAPPED: Generate a new StudyCard using AI with the specified topic and source
+//     text,
+//     and automatically add it to the current deck.
+//     @param topic The topic for the generated card.
+//     @param sourceText The source text to base the card on.
+//     @return The generated StudyCard object, or null if generation fails.
 //    public StudyCard generateAndAddCardWithAI(String topic, String sourceText) {
 //        if (currentDeck != null) {
 //            // Use CardGenerator to generate the card via AI
@@ -217,15 +217,15 @@ public class StudyDeckInteractor implements StudyDeckInputBoundary {
 //        // If currentDeck is null or generation fails, return null
 //        return null;
 //    }
-
-    // TODO Generate multiple StudyCards using AI with the specified topic and
-    // source text,
-    // and automatically add them to the current deck.
-    // @param topic The topic for the generated cards.
-    // @param sourceText The source text to base the cards on.
-    // @param numberOfCards The number of cards to generate.
-    // @return A list of generated StudyCard objects, or empty list if generation
-    // fails.
+//
+//     SCRAPPED: Generate multiple StudyCards using AI with the specified topic and
+//     source text,
+//     and automatically add them to the current deck.
+//     @param topic The topic for the generated cards.
+//     @param sourceText The source text to base the cards on.
+//     @param numberOfCards The number of cards to generate.
+//     @return A list of generated StudyCard objects, or empty list if generation
+//     fails.
 //    public ArrayList<StudyCard> generateAndAddMultipleCardsWithAI(String topic, String sourceText, int numberOfCards) {
 //        ArrayList<StudyCard> generatedCards = new ArrayList<>();
 //

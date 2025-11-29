@@ -1,0 +1,16 @@
+{
+  "title": "testdeck",
+  "description": "description here",
+  "id": 93396,
+  "deck": [
+    {
+      "question": "test question here",
+      "answers": [
+        "a",
+        "b",
+        "c"
+      ],
+      "solutionId": 1
+    }
+  ]
+}
